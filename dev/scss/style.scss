@@ -1,0 +1,28 @@
+@import 'reset';
+
+body {
+    font: 100%;
+    font-family: Roboto;
+}
+
+.logo {
+    background-image: url('../assets/img/toptal.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.commentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 100%;
+    margin: 15px;
+    background-color: #F0F8FF;
+}
+
+.commentText {
+    font-size: 2em;
+    margin: 10px;
+}
